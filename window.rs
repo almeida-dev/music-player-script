@@ -14,7 +14,7 @@ fn main() {
         .expect("Application initialization failed");
     application.connect_startup(|application| {
         let window = ApplicationWindow::new(&application);
-        window.set_title("MARIOPLAY7");
+        window.set_title("MUSIC_PLAYER");
         window.show();
     });
     application.connect_activate(|_| {});
